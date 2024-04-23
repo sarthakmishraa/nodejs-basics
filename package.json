@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-basics",
+  "version": "1.0.0",
+  "description": "Node JS practice",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --env-file=.env server.js"
+  },
+  "author": "Sarthak Mishra",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
